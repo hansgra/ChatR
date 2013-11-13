@@ -1,0 +1,67 @@
+﻿<div class="container" ng-controller="ChatController">
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">ChatR - Login</h4>
+                </div>
+                <form name="loginform" ng-submit="testSubmit" class="form-horizontal" role="form">
+                    <div class="modal-body">
+                        <label for="username">Username:</label>
+                        <input type="text" autofocus="autofocus" id="username" ng-model="username" placeholder="Username.." class="form-control" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="Submit" class="btn btn-default"  ng-click="login()" data-dismiss="modal">OK</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">ChatR</h3>
+                    </div>
+                    <form name="messageform"class="form-horizontal" role="form">
+                        <input type="text" name="message" class="form-control" placeholder="Text input" ng-model="message" />
+                                        <input type="submit" id="sendmessage" ng-click="addMessage()" value="Send" class="btn btn-primary" />            
+                       <div class="alert alert-danger" 
+                            ng-show="messageform.message.$dirty && messageform.message.$invalid">
+                        <small class="error" ng-show="messageform.message.$error.username">
+                            You have to log in first.
+                        </small>
+                      </div>
+                    </form>
+                </div>
+                <div class="panel-body">
+                    <div class="panel panel-success fader{{$first}}" ng-repeat="m in messages">
+                        <div class="panel-heading">
+                            {{m.name}} <span class="pull-right">{{m.date}}</span>
+                        </div>
+                        <div class="panel-body">
+                            {{m.message}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Online chatters:<span class="badge pull-right">{{users.length}}</span>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li ng-repeat="u in users" class="list-group-item color{{$index}}">{{u}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

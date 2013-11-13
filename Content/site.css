@@ -1,0 +1,75 @@
+﻿.fadertrue {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.color0 {
+	background-color: lightblue;
+}
+.color1 {
+	background-color: rosybrown;
+}
+.color2 {
+	background-color: goldenrod;
+}
+.color3{
+	background-color: lightseagreen;
+}
+.color4 {
+	background-color: lightblue;
+}
+.color5 {
+	background-color: rosybrown;
+}
+.color6 {
+	background-color: goldenrod;
+}
+.color7{
+	background-color: lightseagreen;
+}
+.color8 {
+	background-color: lightblue;
+}
+.color9 {
+	background-color: rosybrown;
+}
+.color10 {
+	background-color: goldenrod;
+}
+.color11 {
+	background-color: lightseagreen;
+}
