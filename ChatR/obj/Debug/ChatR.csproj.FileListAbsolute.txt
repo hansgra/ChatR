@@ -15,3 +15,4 @@ C:\Projects\Visual Studio 2012\ChatR\ChatR\bin\Newtonsoft.Json.xml
 C:\Projects\Visual Studio 2012\ChatR\ChatR\obj\Debug\ChatR.csprojResolveAssemblyReference.cache
 C:\Projects\Visual Studio 2012\ChatR\ChatR\obj\Debug\ChatR.dll
 C:\Projects\Visual Studio 2012\ChatR\ChatR\obj\Debug\ChatR.pdb
+C:\Visual Studio 2012\Projects\ChatR\ChatR\obj\Debug\ChatR.csprojResolveAssemblyReference.cache
