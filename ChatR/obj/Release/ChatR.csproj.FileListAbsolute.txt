@@ -1,0 +1,17 @@
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\ChatR.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\ChatR.pdb
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.Web.Infrastructure.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Newtonsoft.Json.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Owin.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Visual Studio 2012\Projects\ChatR\ChatR\bin\Newtonsoft.Json.xml
+C:\Visual Studio 2012\Projects\ChatR\ChatR\obj\Release\ChatR.csprojResolveAssemblyReference.cache
+C:\Visual Studio 2012\Projects\ChatR\ChatR\obj\Release\ChatR.dll
+C:\Visual Studio 2012\Projects\ChatR\ChatR\obj\Release\ChatR.pdb
